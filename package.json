@@ -6,6 +6,7 @@
   "scripts": {
     "deploy": "yarn build && now && now alias",
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
