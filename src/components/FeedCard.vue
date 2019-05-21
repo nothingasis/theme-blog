@@ -40,7 +40,7 @@
             </div>
           </v-flex>
           <v-flex align-self-end>
-            <v-chip
+            <!-- <v-chip
               class="text-uppercase ma-0"
               color="primary"
               label
@@ -48,7 +48,7 @@
               @click.stop=""
             >
               Read More
-            </v-chip>
+            </v-chip> -->
           </v-flex>
         </v-layout>
       </v-img>

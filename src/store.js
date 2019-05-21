@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import * as fs from 'fs'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    articles: require('@/data/articles.json'),
+    // articles: require('@/data/articles.json'),
+    articles: [],
     drawer: false,
     items: [
       {
@@ -14,7 +16,19 @@ export default new Vuex.Store({
       },
       {
         text: 'About',
-        href: '#about'
+        to: '/about'
+      },
+      {
+        text: 'Contact',
+        to: '/contact'
+      },
+      {
+        text: 'After Care',
+        to: '/aftercare'
+      },
+      {
+        text: 'Book Appointment',
+        href: 'https://square.site/book/FH4JMT69VE5JE/roah-cosmetics-lashes-sacramento-ca'
       }
     ]
   },
@@ -39,14 +53,42 @@ export default new Vuex.Store({
       return categories.sort().slice(0, 4)
     },
     links: (state, getters) => {
-      return state.items.concat(getters.categories)
+      return state.items
+      // .concat(getters.categories)
     }
   },
   mutations: {
     setDrawer: (state, payload) => (state.drawer = payload),
-    toggleDrawer: state => (state.drawer = !state.drawer)
+    toggleDrawer: state => (state.drawer = !state.drawer),
+    filterArticles: (state, searchinput) => {
+      state.articles = require('@/data/articles.json').filter(art => {
+        return art.title.toLowerCase().includes(searchinput.toLowerCase())
+      })
+    },
+    buildArticles: (state, articles) => {
+      // An article is an object with the following attributes:
+      /**
+       *  {
+            "title": String,
+            "hero": image_name.jpg, // REQUIRED
+            "category": String,
+            "author": String,
+            "prominent": // true/false
+          },
+       */
+      console.log("Image Files: ", articles)
+    }
   },
   actions: {
-
+    filterArticles ({ commit }, data) {
+      console.log('filterArticles: ', data)
+      commit('filterArticles', data)
+    },
+    buildArticles ({ commit }) {
+      console.log('fs: ', fs)
+      // const articles = fs.readdirSync('@/assets/images/')
+      // console.log('buildArticles: ', articles)
+      // commit('buildArticles', articles)
+    }
   }
 })

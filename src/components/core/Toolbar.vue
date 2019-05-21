@@ -13,8 +13,9 @@
     >
       <v-layout>
         <v-img
-          :src="require('@/assets/logo.png')"
+          :src="require('@/assets/logo_icon.png')"
           class="mr-5"
+          style="cursor: pointer;"
           contain
           height="48"
           width="48"
@@ -25,6 +26,7 @@
           v-for="(link, i) in links"
           :key="i"
           :to="link.to"
+          :href="link.href"
           class="ml-0 hidden-sm-and-down"
           flat
           @click="onClick($event, item)"
@@ -33,11 +35,14 @@
         </v-btn>
         <v-spacer />
         <v-text-field
+          v-model="searchInput"
           append-icon="mdi-magnify"
           flat
           hide-details
           solo-inverted
           style="max-width: 300px;"
+          @change="filterInput"
+          @click:append="filterInput(searchInput)"
         />
       </v-layout>
     </v-container>
@@ -46,24 +51,31 @@
 
 <script>
   // Utilities
-  import {
-    mapGetters,
-    mapMutations
-  } from 'vuex'
+  import { mapGetters, mapMutations, mapActions } from 'vuex'
 
   export default {
+    data () {
+      return {
+        searchInput: ''
+      };
+    },
     computed: {
       ...mapGetters(['links'])
     },
 
     methods: {
       ...mapMutations(['toggleDrawer']),
-      onClick (e, item) {
-        e.stopPropagation()
-
-        if (item.to || !item.href) return
-
-        this.$vuetify.goTo(item.href)
+      ...mapActions(['filterArticles']),
+      onClick(e, item) {
+        e.stopPropagation();
+        if (item.to || !item.href) return;
+        else {
+          window.open(item.href, '_blank')
+          // this.$vuetify.goTo(item.href);
+        }
+      },
+      filterInput(value) {
+        this.filterArticles(value);
       }
     }
   }

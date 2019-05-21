@@ -38,33 +38,33 @@
     data: () => ({
       items: [
         {
-          href: '#!',
-          icon: 'mdi-twitter'
+          href: 'https://www.yelp.com/biz/roah-cosmetics-sacramento-4',
+          icon: 'mdi-yelp'
         },
         {
-          href: '#!',
+          href: 'https://www.instagram.com/roah_cosmetics916/',
           icon: 'mdi-instagram'
         },
         {
-          href: '#!',
-          icon: 'mdi-facebook'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-google-plus'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-reddit'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-discord'
-        },
-        {
-          href: '#!',
-          icon: 'mdi-pinterest'
+          href: 'https://square.site/book/FH4JMT69VE5JE/roah-cosmetics-lashes-sacramento-ca',
+          icon: 'mdi-square'
         }
+        // {
+        //   href: '#!',
+        //   icon: 'mdi-google-plus'
+        // },
+        // {
+        //   href: '#!',
+        //   icon: 'mdi-reddit'
+        // },
+        // {
+        //   href: '#!',
+        //   icon: 'mdi-discord'
+        // },
+        // {
+        //   href: '#!',
+        //   icon: 'mdi-pinterest'
+        // }
       ]
     })
   }

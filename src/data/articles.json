@@ -1,85 +1,91 @@
 [
   {
-    "title": "Moroccan Days",
-    "author": "John L",
-    "category": "Travel",
-    "hero": "moroccandays.jpg"
+    "title": "Classic Set",
+    "author": "Fiah R.",
+    "category": "Accessories",
+    "hero": "classicset.jpg"
   },
   {
-    "title": "Swedish Fishing",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Leisure",
-    "hero": "autumnclouds.jpg"
+    "category": "Eye Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "The Adventure Begins",
-    "hero": "snowcup.jpg",
+    "title": "Green Eyes",
+    "hero": "white_eyes.jpg",
     "prominent": true
   },
   {
-    "title": "Paris in Spring",
-    "author": "John L",
-    "category": "Travel",
-    "hero": "christmas.jpg"
-  },
-  {
-    "title": "Youthful Independence",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Political",
-    "hero": "july4.jpg"
+    "category": "Face Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "Trial By Fire",
-    "author": "Anthony R",
-    "category": "Cooking",
-    "hero": "firepots.jpg"
-  },
-  {
-    "title": "Water Ventures",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Leisure",
-    "hero": "jellyfish.jpg"
+    "category": "Fragrance",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "Mt. Zekial",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Travel",
-    "hero": "mountaincabin.jpg"
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "Cozumel Caves",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Travel",
-    "hero": "lightcave.jpg"
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "Amazing Ireland",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Travel",
-    "hero": "greengrass.jpg"
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "Cabin Fever",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Travel",
-    "hero": "snowcabin.jpg"
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "To the ancient ruins",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Travel",
-    "hero": "ruins.jpg"
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "New fashion trends",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Travel",
-    "hero": "umbrella.jpg"
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
   },
   {
-    "title": "Go on a vacation",
+    "title": "Classic Full Set",
     "author": "Rachel L",
-    "category": "Travel",
-    "hero": "adventurecave.jpg"
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
+  },
+  {
+    "title": "Classic Full Set",
+    "author": "Rachel L",
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
+  },
+  {
+    "title": "Classic Full Set",
+    "author": "Rachel L",
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
+  },
+  {
+    "title": "Classic Full Set",
+    "author": "Rachel L",
+    "category": "Lip Products",
+    "hero": "longlashes.jpg"
   }
 ]

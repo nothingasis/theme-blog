@@ -5,10 +5,9 @@
   >
     <base-subheading>About Us</base-subheading>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tortor tellus. Donec maximus curs us pulvinar.
-      Proin vehicula eros mauris, sit amet rutrum libero vestibulum ac. Morbi ullamcorper eu lacus vulputate consect.
-      Etur vivamus sagittis accumsan quam eu malesuada. Proin et ante vel libero ultrices cursus. Donec felis leo, cu
-      rsus eget hendrerit at, congue nec enim.
+      Roah cosmetics! Your cosmetics professional in Sacramento. Come on in!
+      We're located inside SF Supermarket on Mack road through the left door enterance.
+      <a href="https://square.site/book/FH4JMT69VE5JE/roah-cosmetics-lashes-sacramento-ca">Book your appointment</a> today!
     </p>
   </v-container>
 </template>
