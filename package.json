@@ -6,7 +6,7 @@
   "scripts": {
     "deploy": "yarn build && now && now alias",
     "serve": "vue-cli-service serve",
-    "start": "vue-cli-service serve",
+    "start": "node server.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^12.1.0",
     "@ckeditor/ckeditor5-vue": "^1.0.0-beta.2",
+    "express": "^4.17.0",
     "fs": "0.0.1-security",
     "vue": "^2.6.2",
     "vue-router": "^3.0.1",
