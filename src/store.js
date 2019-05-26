@@ -6,8 +6,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    // articles: require('@/data/articles.json'),
-    articles: [],
+    articles: require('@/data/articles.json'),
+    // articles: [],
     drawer: false,
     items: [
       {
@@ -28,6 +28,7 @@ export default new Vuex.Store({
       },
       {
         text: 'Book Appointment',
+        target: "_blank",
         href: 'https://square.site/book/FH4JMT69VE5JE/roah-cosmetics-lashes-sacramento-ca'
       }
     ]

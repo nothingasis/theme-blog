@@ -29,7 +29,6 @@
           :href="link.href"
           class="ml-0 hidden-sm-and-down"
           flat
-          @click="onClick($event, item)"
         >
           {{ link.text }}
         </v-btn>
@@ -70,7 +69,7 @@
         e.stopPropagation();
         if (item.to || !item.href) return;
         else {
-          window.open(item.href, '_blank')
+          // window.open(item.href, '_blank')
           // this.$vuetify.goTo(item.href);
         }
       },
