@@ -25,12 +25,8 @@
       Subscribe: () => import('@/components/home/Subscribe')
     },
 
-    created() {
-      this.buildArticles()
-    },
-
     methods: {
-      ...mapActions(['buildArticles'])
+      ...mapActions([])
     }
   }
 </script>

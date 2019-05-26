@@ -4,7 +4,7 @@
       <v-flex xs12 sm4>
         <v-card>
           <v-img
-            :src="require('@/assets/store.jpg')"
+            :src="require('@/assets/full_logo.png')"
             aspect-ratio="1"
           ></v-img>
         </v-card>

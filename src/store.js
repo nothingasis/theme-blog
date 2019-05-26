@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import * as fs from 'fs'
 
 Vue.use(Vuex)
 
@@ -65,31 +64,12 @@ export default new Vuex.Store({
       state.articles = require('@/data/articles.json').filter(art => {
         return art.title.toLowerCase().includes(searchinput.toLowerCase())
       })
-    },
-    buildArticles: (state, articles) => {
-      // An article is an object with the following attributes:
-      /**
-       *  {
-            "title": String,
-            "hero": image_name.jpg, // REQUIRED
-            "category": String,
-            "author": String,
-            "prominent": // true/false
-          },
-       */
-      console.log("Image Files: ", articles)
     }
   },
   actions: {
     filterArticles ({ commit }, data) {
       console.log('filterArticles: ', data)
       commit('filterArticles', data)
-    },
-    buildArticles ({ commit }) {
-      console.log('fs: ', fs)
-      // const articles = fs.readdirSync('@/assets/images/')
-      // console.log('buildArticles: ', articles)
-      // commit('buildArticles', articles)
     }
   }
 })
