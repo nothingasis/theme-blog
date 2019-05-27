@@ -45,7 +45,7 @@
               </v-btn>
 
               <v-snackbar v-model="showSubscribe" bottom :timeout="3600">
-                Not available, please try again later.
+                Currently not available, please try again later.
                 <v-btn color="#cbaa5c" flat @click="showSubscribe = false">
                   Close
                 </v-btn>

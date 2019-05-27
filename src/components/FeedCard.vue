@@ -9,7 +9,7 @@
     >
       <template v-slot:activator="{ on }">
         <base-card
-          :height="value.prominent ? 450 : 350"
+          :height="350"
           color="grey lighten-1"
           dark
           href="#!"
@@ -38,7 +38,7 @@
                 >
                   {{ value.category }}
                 </v-chip>
-                <h3 class="title font-weight-bold mb-2">
+                <h3 class="subheader font-weight-light mb-2">
                   {{ value.title }}
                 </h3>
                 <div class="caption">
