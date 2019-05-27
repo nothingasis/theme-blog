@@ -1,6 +1,6 @@
 <template>
   <v-footer
-    class="py-4"
+    class="py-0"
     dark
     height="auto"
   >
@@ -20,6 +20,12 @@
           </base-btn>
         </v-flex>
         <v-spacer />
+        <p class="text-xs-center font-weight-light">
+          Roah Cosmetics & Lashes<br/>
+          4562 Mack Road Sacramento CA 95823<br/>
+          916-709-7537
+        </p>
+        <v-spacer />
         <base-btn
           class="mr-0"
           square
@@ -34,38 +40,39 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      items: [
-        {
-          href: 'https://www.yelp.com/biz/roah-cosmetics-sacramento-4',
-          icon: 'mdi-yelp'
-        },
-        {
-          href: 'https://www.instagram.com/roah_cosmetics916/',
-          icon: 'mdi-instagram'
-        },
-        {
-          href: 'https://square.site/book/FH4JMT69VE5JE/roah-cosmetics-lashes-sacramento-ca',
-          icon: 'mdi-square'
-        }
-        // {
-        //   href: '#!',
-        //   icon: 'mdi-google-plus'
-        // },
-        // {
-        //   href: '#!',
-        //   icon: 'mdi-reddit'
-        // },
-        // {
-        //   href: '#!',
-        //   icon: 'mdi-discord'
-        // },
-        // {
-        //   href: '#!',
-        //   icon: 'mdi-pinterest'
-        // }
-      ]
-    })
-  }
+export default {
+  data: () => ({
+    items: [
+      {
+        href: "https://www.yelp.com/biz/roah-cosmetics-sacramento-4",
+        icon: "mdi-yelp"
+      },
+      {
+        href: "https://www.instagram.com/roah_cosmetics916/",
+        icon: "mdi-instagram"
+      },
+      {
+        href:
+          "https://square.site/book/FH4JMT69VE5JE/roah-cosmetics-lashes-sacramento-ca",
+        icon: "mdi-square"
+      }
+      // {
+      //   href: '#!',
+      //   icon: 'mdi-google-plus'
+      // },
+      // {
+      //   href: '#!',
+      //   icon: 'mdi-reddit'
+      // },
+      // {
+      //   href: '#!',
+      //   icon: 'mdi-discord'
+      // },
+      // {
+      //   href: '#!',
+      //   icon: 'mdi-pinterest'
+      // }
+    ]
+  })
+};
 </script>

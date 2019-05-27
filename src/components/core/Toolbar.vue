@@ -1,7 +1,7 @@
 <template>
   <v-toolbar
     app
-    flat
+    dark
   >
     <v-toolbar-side-icon
       class="hidden-md-and-up"
@@ -27,7 +27,7 @@
           :key="i"
           :to="link.to"
           :href="link.href"
-          class="my-3 ml-0 hidden-sm-and-down"
+          class="ml-0 hidden-sm-and-down"
           flat
         >
           {{ link.text }}

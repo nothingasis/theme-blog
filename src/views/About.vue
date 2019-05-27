@@ -29,12 +29,6 @@
           Come on in!<br />
           We're located inside SF Supermarket on Mack road through the left door enterance.
         </p>
-        <p class="subheading">
-          <v-icon>
-            mdi-calendar
-          </v-icon>
-          <a href="https://square.site/book/FH4JMT69VE5JE/roah-cosmetics-lashes-sacramento-ca">Book your appointment</a> today!
-        </p>
 
         <v-list>
           <v-list-tile
@@ -72,11 +66,6 @@ export default {
       items: [
         {
           icon: "mdi-check",
-          title: "Makeup",
-          color: "green"
-        },
-        {
-          icon: "mdi-check",
           title: "Removal",
           color: "green"
         },
@@ -98,11 +87,6 @@ export default {
         {
           icon: "mdi-check",
           title: "Combo Volume Set",
-          color: "green"
-        },
-        {
-          icon: "mdi-check",
-          title: "More+++",
           color: "green"
         },
         {

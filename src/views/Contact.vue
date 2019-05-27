@@ -25,13 +25,11 @@
         </v-flex>
       </v-layout>
     </v-img>
-    <v-layout
-      fill-height
-      align-content-center>
-    Inside SF Supermarket at <br/>
-    4562 MACK RD<br/>
-    Sacramento CA 95823
-    </v-layout>
+    <p class="headline font-weight-light text-xs-center">
+      Inside SF Supermarket at <br />
+      4562 MACK RD<br />
+      Sacramento CA 95823
+    </p>
   </v-container>
 </template>
 
