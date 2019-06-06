@@ -1,4 +1,4 @@
-# theme-blog
+# roah-cosmetics-and-lashes
 
 ## Project setup
 ```
