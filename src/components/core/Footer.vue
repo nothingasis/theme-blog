@@ -21,8 +21,8 @@
         </v-flex>
         <v-spacer />
         <p class="text-xs-center font-weight-light">
-          Roah Cosmetics & Lashes<br/>
-          4562 Mack Road Sacramento CA 95823<br/>
+          Roah Cosmetics & Lashes<br />
+          4562 Mack Road Sacramento CA 95823<br />
           916-709-7537
         </p>
         <v-spacer />

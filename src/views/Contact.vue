@@ -3,7 +3,13 @@
     id="contact"
     tag="section"
   >
-    <base-subheading>Contact</base-subheading>
+    <v-layout
+      row
+      wrap
+    >
+      <p class="text-xs-center font-weight-light display-2">Contact</p>
+    </v-layout>
+    <hr>
     <v-img
       class="grey lighten-2"
       height="400"
@@ -28,7 +34,9 @@
     <p class="headline font-weight-light text-xs-center">
       Inside SF Supermarket at <br />
       4562 MACK RD<br />
-      Sacramento CA 95823
+      Sacramento CA 95823<br/>
+      <a href="mailto:roahcosmetics@gmail.com">roahcosmetics@gmail.com</a><br/>
+      (916) 709-7537
     </p>
   </v-container>
 </template>

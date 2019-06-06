@@ -15,7 +15,7 @@
         xs12
         md4
       >
-        <newest-posts />
+        <!-- <newest-posts /> -->
       </v-flex>
       <v-flex
         xs12
@@ -30,7 +30,7 @@
 <script>
   export default {
     components: {
-      NewestPosts: () => import('@/components/NewestPosts'),
+      // NewestPosts: () => import('@/components/NewestPosts'),
       Instagram: () => import('@/components/Instagram'),
       Tags: () => import('@/components/Tags')
     }

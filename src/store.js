@@ -18,6 +18,10 @@ export default new Vuex.Store({
         to: '/about'
       },
       {
+        text: 'Services',
+        to: '/services'
+      },
+      {
         text: 'Contact',
         to: '/contact'
       },
