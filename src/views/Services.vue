@@ -38,6 +38,7 @@
                 fab
                 flat
                 :href="card.href"
+                target="_blank"
               >
                 <v-icon>mdi-calendar</v-icon>
               </v-btn>
