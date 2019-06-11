@@ -9,7 +9,7 @@
         xs12
         md4
       >
-        <instagram />
+        <!-- <instagram /> -->
       </v-flex>
       <v-flex
         xs12
