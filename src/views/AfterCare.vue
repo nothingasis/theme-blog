@@ -5,8 +5,8 @@
   >
     <base-subheading>After Care</base-subheading>
     <under-construction/>
-    <ckeditor :editor="editor" v-model="editorData" :config="editorConfig"></ckeditor>
-    <p v-html="editorData"></p>
+    <!-- <ckeditor :editor="editor" v-model="editorData" :config="editorConfig"></ckeditor>
+    <p v-html="editorData"></p> -->
   </v-container>
 </template>
 
