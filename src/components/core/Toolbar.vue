@@ -27,6 +27,7 @@
           :key="i"
           :to="link.to"
           :href="link.href"
+          :target="link.target"
           class="ml-0 hidden-sm-and-down"
           flat
         >
