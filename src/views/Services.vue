@@ -25,22 +25,30 @@
         >
           <v-card>
             <v-card-title>
-              <p class="title font-weight-medium bg-dark">{{card.title}}</p>
+              <div>
+                <div class="headline">{{card.title}}</div>
+                <span class="grey--text">{{card.cost}}</span>
+              </div>
             </v-card-title>
-            <v-card-text>{{card.text}}
+            <v-card-text>
+              <div>
+                <span>{{card.text}}</span>
+              </div>
             </v-card-text>
             <v-card-actions>
-              <v-btn color="primary">
+              <!-- <v-btn color="primary">
                 {{card.cost}}
-              </v-btn>
+              </v-btn> -->
               <v-spacer></v-spacer>
               <v-btn
                 fab
                 flat
                 :href="card.href"
+                color="secondary"
                 target="_blank"
               >
-                <v-icon>mdi-calendar</v-icon>
+                <!-- Book and appointment -->
+                <v-icon x-large>mdi-calendar</v-icon>
               </v-btn>
             </v-card-actions>
           </v-card>

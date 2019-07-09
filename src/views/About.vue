@@ -37,12 +37,10 @@
             :href="item.href"
             avatar
           >
-            <v-list-tile-icon>
               <v-icon
                 v-if="item.icon"
                 :color="item.color"
               >{{item.icon}}</v-icon>
-            </v-list-tile-icon>
 
             <v-list-tile-content>
               <v-list-tile-title
